@@ -3,6 +3,11 @@ name: Sync Fork
 on:
   workflow_dispatch: # on button click
 
+permissions:
+  contents: write
+  pull-requests: write
+  repository-projects: write
+
 jobs:
   sync:
 
